@@ -1,0 +1,44 @@
+.header__outer {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+
+.header__outer:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.733);
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-bottom: solid 1px rgba(192, 192, 192, 0.223);
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__button {
+    zoom: 0.8;
+}
+
+.header__link {
+    font-size: 18px;
+}
