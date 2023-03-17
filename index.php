@@ -198,9 +198,97 @@
                 </div>
             </div>
         </section>
+        <section id="author">
+            <div class="author__outer">
+                <div id="tsparticles"></div>
+                <div class="container">
+                    <div class="author__inner">
+                        <div class="author__list">
+                            <div class="author__item">
+                                <div class="author__text">
+                                    Nullam blandit urna lacus, malesuada interdum lacus scelerisque a.
+                                    Vivamus a est non arcu iaculis varius a nec tortor.
+                                    Cras ut dolor sollicitudin, consectetur felis a, molestie purus.
+                                </div>
+                                <div class="author__info">
+                                    <div class="author__image">
+                                        <img src="assets/img/author-1.png" alt="">
+                                    </div>
+                                    <div class="author__name">
+                                        #fruitAuthor
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="author__item">
+                                <div class="author__text">
+                                    Nullam blandit urna lacus, malesuada interdum lacus scelerisque a.
+                                    Vivamus a est non arcu iaculis varius a nec tortor.
+                                    Cras ut dolor sollicitudin, consectetur felis a, molestie purus.
+                                </div>
+                                <div class="author__info">
+                                    <div class="author__image">
+                                        <img src="assets/img/author-2.png" alt="">
+                                    </div>
+                                    <div class="author__name">
+                                        #fruitAuthor
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="author__item">
+                                <div class="author__text">
+                                    Nullam blandit urna lacus, malesuada interdum lacus scelerisque a.
+                                    Vivamus a est non arcu iaculis varius a nec tortor.
+                                    Cras ut dolor sollicitudin, consectetur felis a, molestie purus.
+                                </div>
+                                <div class="author__info">
+                                    <div class="author__image">
+                                        <img src="assets/img/author-3.png" alt="">
+                                    </div>
+                                    <div class="author__name">
+                                        #fruitAuthor
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="author__item">
+                                <div class="author__text">
+                                    Nullam blandit urna lacus, malesuada interdum lacus scelerisque a.
+                                    Vivamus a est non arcu iaculis varius a nec tortor.
+                                    Cras ut dolor sollicitudin, consectetur felis a, molestie purus.
+                                </div>
+                                <div class="author__info">
+                                    <div class="author__image">
+                                        <img src="assets/img/author-4.png" alt="">
+                                    </div>
+                                    <div class="author__name">
+                                        #fruitAuthor
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="subscribe">
+            <div class="subscribe__outer">
+                <div class="container">
+                    <div class="subscribe__inner">
+                        <div class="subscribe__title title"></div>
+                        <div class="subscribe__form">
+                            <div class="subscribe__input">
+                                <input type="text" placeholder="Your email">
+                                <button class="subscribe__button btn"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <?php include 'assets/includes/footer.php' ?>
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.30.1/tsparticles.min.js"></script>
     <script src="assets/scripts/app.js?<?= time() ?>"></script>
 </body>
 

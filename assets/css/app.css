@@ -409,6 +409,21 @@ b.is-hidden {
     width: 100%;
 }
 
+.live__outer {
+    position: relative;
+}
+
+.live__outer:before {
+    position: absolute;
+    content: url(../img/live-decor.png);
+    right: 0;
+    top: 100px;
+}
+
+.live__inner {
+    position: relative;
+}
+
 .live__win {
     height: 459px;
 }
@@ -565,7 +580,8 @@ b.is-hidden {
     gap: 30px;
 }
 
-textarea, input {
+textarea,
+input {
     outline: none;
     border-radius: 12px;
     padding: 15px;
@@ -573,4 +589,77 @@ textarea, input {
 
 .live__comments-form textarea {
     width: 100%;
+}
+
+.author__inner {
+    padding: 100px;
+}
+
+.author__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.author__item {
+    padding: 20px 40px;
+    border-radius: 20px;
+    background: black;
+    position: relative;
+    background: rgba(0, 0, 0, 0.844);
+    border: solid 2px #4924C2;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.author__text {
+    font-size: 18px;
+}
+
+.author__info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.author__name {
+    font-family: 'Shadows Into Light Two', cursive;
+    background: linear-gradient(269.18deg, #4924C2 -9.55%, #EB1A82 118.48%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.author__image {
+    position: relative;
+}
+
+.author__image:before {
+    position: absolute;
+    content: '';
+    top: 1px;
+    right: 1px;
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 174, 0);
+    border-radius: 100%;
+}
+
+.author__image img {
+    zoom: 0.5;
+}
+
+#tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 }
