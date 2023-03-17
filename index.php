@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/css/footer.css?<?= time() ?>" />
     <link rel="stylesheet" href="assets/css/app.css?<?= time() ?>" />
     <link rel="stylesheet" href="assets/css/header.css?<?= time() ?>" />
+
+    <link href="assets/css/font-awesome.min.css?<?= time() ?>" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +29,10 @@
                     <div class="banner__inner">
                         <div class="banner__content">
                             <div class="banner__title">
-                                <span>Juicy</span> Fruit
+                                <span class="banner__words" style="width: 266px">
+                                    <b class="is-visible">Juicy</b>
+                                    <b class="is-hidden">Tasty</b>
+                                </span> Fruit
                             </div>
                             <div class="banner__text">
                                 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -43,9 +48,47 @@
                 </div>
             </div>
         </section>
+        <section id="about">
+            <div class="about__outer">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="about__list">
+                            <div class="about__item">
+                                <div class="about__icon">
+                                    <i class="fa fa-apple" aria-hidden="true"></i>
+                                </div>
+                                <div class="about__text">
+                                    Cras id erat maximus, hendrerit eros a, eleifend enim.
+                                    Quisque quis felis imperdiet, finibus eros et, porttitor metus.
+                                </div>
+                            </div>
+                            <div class="about__item">
+                                <div class="about__icon">
+                                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                                </div>
+                                <div class="about__text">
+                                    Cras id erat maximus, hendrerit eros a, eleifend enim.
+                                    Quisque quis felis imperdiet, finibus eros et, porttitor metus.
+                                </div>
+                            </div>
+                            <div class="about__item">
+                                <div class="about__icon">
+                                    <i class="fa fa-leaf" aria-hidden="true"></i>
+                                </div>
+                                <div class="about__text">
+                                    Cras id erat maximus, hendrerit eros a, eleifend enim.
+                                    Quisque quis felis imperdiet, finibus eros et, porttitor metus.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <?php include 'assets/includes/footer.php' ?>
-    <script src="assets/scripts/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="assets/scripts/app.js?<?= time() ?>"></script>
 </body>
 
 </html>

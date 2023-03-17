@@ -10,3 +10,10 @@ document.addEventListener("mousemove", (o) => {
             (o.style.transform = `translate(${e}px, ${t}px)`),
             requestAnimationFrame(s);
     });
+
+setInterval(() => {
+    $(".banner__words .is-hidden").attr("class", "temp-visible");
+    $(".banner__words .is-visible").attr("class", "is-hidden");
+    $(".banner__words .temp-visible").attr("class", "is-visible");
+}, 4000);
+

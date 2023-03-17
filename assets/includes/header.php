@@ -2,7 +2,7 @@
     <div class="header__outer">
         <div class="container">
             <div class="header__inner">
-                <div class="header__logo"><img src="" alt=""></div>
+                <div class="header__logo">JuiceBomb</div>
                 <div class="header__block">
                     <div class="header__menu">
                         <a href="" class="header__link">Home</a>

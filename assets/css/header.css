@@ -29,6 +29,15 @@
     gap: 30px;
 }
 
+.header__logo {
+    background: linear-gradient(269.18deg, #4924C2 -9.55%, #EB1A82 118.48%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;
+}
+
 .header__menu {
     display: flex;
     align-items: center;
