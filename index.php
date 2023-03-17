@@ -80,6 +80,119 @@
                                     Quisque quis felis imperdiet, finibus eros et, porttitor metus.
                                 </div>
                             </div>
+                            <div class="about__item">
+                                <div class="about__icon">
+                                    <i class="fa fa-tint" aria-hidden="true"></i>
+                                </div>
+                                <div class="about__text">
+                                    Cras id erat maximus, hendrerit eros a, eleifend enim.
+                                    Quisque quis felis imperdiet, finibus eros et, porttitor metus.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="live">
+            <div class="live__outer">
+                <div class="container">
+                    <div class="live__inner">
+                        <div class="live__title title">
+                            <span>#</span> Join our last big winners
+                        </div>
+                        <div class="live__block">
+                            <div class="live__win block">
+                                <div class="live__win-inner block-inner">
+                                    <div class="live__win-list">
+                                        <div class="live__win-item">
+                                            <div class="live__win-image"><img src="assets/img/win-1.png" alt=""></div>
+                                            <div class="live__win-info">
+                                                <div class="live__win-name">
+                                                    Julia Dertas
+                                                </div>
+                                                <div class="live__win-price">
+                                                    $2300,000
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="live__win-item">
+                                            <div class="live__win-image"><img src="assets/img/win-1.png" alt=""></div>
+                                            <div class="live__win-info">
+                                                <div class="live__win-name">
+                                                    Julia Dertas
+                                                </div>
+                                                <div class="live__win-price">
+                                                    $2300,000
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="live__win-item">
+                                            <div class="live__win-image"><img src="assets/img/win-1.png" alt=""></div>
+                                            <div class="live__win-info">
+                                                <div class="live__win-name">
+                                                    Julia Dertas
+                                                </div>
+                                                <div class="live__win-price">
+                                                    $2300,000
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="live__comments block">
+                                <div class="live__comments-inner block-inner">
+                                    <div class="live__comments-list">
+                                        <div class="live__comments-list-inner">
+                                            <?php
+                                            chdir($_SERVER["DOCUMENT_ROOT"]);
+                                            $names = file_get_contents('./assets/data/names.json');
+                                            $names = json_decode($names);
+
+                                            $comments = file_get_contents('./assets/data/comments.json');
+                                            $comments = json_decode($comments);
+
+                                            $result = array();
+                                            $time = 6;
+                                            for ($i = 0; $i < 250; $i++) {
+                                            ?>
+                                                <div class="live__comment-item">
+                                                    <div class="live__comment-image">
+                                                        <img src="assets/img/anonym.png" alt="">
+                                                    </div>
+                                                    <div class="live__comment-info">
+                                                        <div class="live__comment-name">
+                                                            <span>#</span>Anonym
+                                                        </div>
+                                                        <div class="live__comment-text">
+                                                            <?php echo $comments[rand(0, count($comments) - 1)]->comment ?>
+                                                        </div>
+                                                    </div>
+                                                    <div class="live__comment-controll">
+                                                        <div class="live__comment-date"><?php echo $time; ?> min</div>
+                                                        <div class="live__comment-meta">
+                                                            <div class="live__comment-view">
+                                                                <?php echo rand(0, 99) ?> <i class="fa fa-eye" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="live__comment-share">
+                                                                <i class="fa fa-share" aria-hidden="true"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <?php
+                                                $time += rand(0, 3);
+                                            }
+                                            ?>
+                                        </div>
+                                    </div>
+                                    <div class="live__comments-form">
+                                        <textarea name="" id="" rows="2" placeholder="Your comment..."></textarea>
+                                        <button id="comment-btn" class="live__comments-button btn">Send</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
