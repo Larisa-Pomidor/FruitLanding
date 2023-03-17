@@ -146,3 +146,16 @@
     align-items: center;
     justify-content: center;
 }
+
+@media(max-width: 800px) {
+
+    .footer__inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .copy__inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -43,7 +43,9 @@
                                 <div class="banner__button btn">About me!</div>
                             </div>
                         </div>
-                        <div class="banner__image"></div>
+                        <div class="banner__image">
+                            <img src="assets/img/home.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -597,6 +599,9 @@
                             Vestibulum vel diam hendrerit, aliquam massa non, tempor magna. Aliquam erat volutpat.
                             Mauris luctus ante diam, sit amet condimentum odio lacinia vel.
                             Sed sit amet nulla dolor. Nam porta sed mi in auctor. Nunc et lacus ex. In hac habitasse platea dictumst.
+                        </div>
+                        <div class="info__button btn btn_dark">
+                            Taste me!
                         </div>
                         <div class="info__title title">
                             <span>#</span> Duis eget facilisis erat

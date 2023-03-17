@@ -226,33 +226,6 @@ tsParticles.load("tsparticles", {
                 value: "*",
                 weight: "400"
             },
-            // image: [
-            //     {
-            //         src: "https://particles.js.org/images/fruits/apple.png",
-            //         width: 32,
-            //         height: 32
-            //     },
-            //     {
-            //         src: "https://particles.js.org/images/fruits/avocado.png",
-            //         width: 32,
-            //         height: 32
-            //     },
-            //     {
-            //         src: "https://particles.js.org/images/fruits/banana.png",
-            //         width: 32,
-            //         height: 32
-            //     },
-            //     {
-            //         src: "https://particles.js.org/images/fruits/berries.png",
-            //         width: 32,
-            //         height: 32
-            //     },
-            //     {
-            //         src: "https://particles.js.org/images/fruits/cherry.png",
-            //         width: 32,
-            //         height: 32
-            //     }
-            // ],
             image: [
                 {
                     src: "assets/img/symb-1.png",
@@ -314,5 +287,17 @@ tsParticles.load("tsparticles", {
         url: ""
     }
 });
+
+//lang menu
+
+$(".header__lang").click(() => {
+    $(".header__lang-list").toggleClass("active");
+})
+
+//mobile menu
+
+$(".header__burger").click(() => {
+    $(".header__menu").toggleClass("active");
+})
 
 

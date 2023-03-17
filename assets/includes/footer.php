@@ -28,25 +28,25 @@
                     </div>
                 </div>
                 <div class="footer__col">
-                    <div class="footer__title">About Us</div>
+                    <div class="footer__title">Menu</div>
                     <div class="footer__menu">
                         <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
+                        <a href="#" class="footer__menu-item">About</a>
+                        <a href="#" class="footer__menu-item">Comments</a>
+                        <a href="#" class="footer__menu-item">Faq</a>
+                        <a href="#" class="footer__menu-item">Gallery</a>
+                        <a href="#" class="footer__menu-item">Contacts</a>
                     </div>
                 </div>
                 <div class="footer__col">
-                    <div class="footer__title">About Us</div>
+                    <div class="footer__title">Main Info</div>
                     <div class="footer__menu">
-                        <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
-                        <a href="#" class="footer__menu-item">Home</a>
+                        <a href="#" class="footer__menu-item">Privacy Policy</a>
+                        <a href="#" class="footer__menu-item">Instructions</a>
+                        <a href="#" class="footer__menu-item">More</a>
+                        <a href="#" class="footer__menu-item">Sponsors</a>
+                        <a href="#" class="footer__menu-item">Team Lead</a>
+                        <a href="#" class="footer__menu-item">Fruit Data</a>
                     </div>
                 </div>
                 <div class="footer__col">
