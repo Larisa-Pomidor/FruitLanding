@@ -269,22 +269,248 @@
                 </div>
             </div>
         </section>
-        <section id="subscribe">
-            <div class="subscribe__outer">
+        <section id="steps">
+            <div class="steps__outer">
                 <div class="container">
-                    <div class="subscribe__inner">
-                        <div class="subscribe__title title"></div>
-                        <div class="subscribe__form">
-                            <div class="subscribe__input">
-                                <input type="text" placeholder="Your email">
-                                <button class="subscribe__button btn"></button>
+                    <div class="steps__inner">
+                        <div class="steps__title title">
+                            <span>#</span> Easy to go
+                        </div>
+                        <div class="steps__desc">
+                            Vestibulum vel diam hendrerit, aliquam massa non, tempor magna. Aliquam erat volutpat.
+                            Mauris luctus ante diam, sit amet condimentum odio lacinia vel.
+                            Sed sit amet nulla dolor. Nam porta sed mi in auctor. Nunc et lacus ex. In hac habitasse platea dictumst.
+                        </div>
+                        <div class="steps__list">
+                            <div class="steps__item">
+                                <div class="steps__item-inner">
+                                    <div class="steps__top">
+                                        <div class="steps__image"><img src="assets/img/step-1.png" alt=""></div>
+                                        <div class="steps__number">01</div>
+                                    </div>
+                                    <div class="steps__item-title">Mauris ut tristique</div>
+                                    <div class="steps__text">
+                                        Sed dolor ligula, consectetur at quam ultricies, imperdiet facilisis ipsum.
+                                        Suspendisse in varius leo. Suspendisse ut elementum justo.
+                                    </div>
+                                    <div class="steps__button btn">Taste me!</div>
+                                </div>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__item-inner">
+                                    <div class="steps__top">
+                                        <div class="steps__image"><img src="assets/img/step-2.png" alt=""></div>
+                                        <div class="steps__number">02</div>
+                                    </div>
+                                    <div class="steps__item-title">Mauris ut tristique</div>
+                                    <div class="steps__text">
+                                        Sed dolor ligula, consectetur at quam ultricies, imperdiet facilisis ipsum.
+                                        Suspendisse in varius leo. Suspendisse ut elementum justo.
+                                    </div>
+                                    <div class="steps__button btn">Taste me!</div>
+                                </div>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__item-inner">
+                                    <div class="steps__top">
+                                        <div class="steps__image"><img src="assets/img/step-3.png" alt=""></div>
+                                        <div class="steps__number">03</div>
+                                    </div>
+                                    <div class="steps__item-title">Mauris ut tristique</div>
+                                    <div class="steps__text">
+                                        Sed dolor ligula, consectetur at quam ultricies, imperdiet facilisis ipsum.
+                                        Suspendisse in varius leo. Suspendisse ut elementum justo.
+                                    </div>
+                                    <div class="steps__button btn">Taste me!</div>
+                                </div>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__item-inner">
+                                    <div class="steps__top">
+                                        <div class="steps__image"><img src="assets/img/step-4.png" alt=""></div>
+                                        <div class="steps__number">04</div>
+                                    </div>
+                                    <div class="steps__item-title">Mauris ut tristique</div>
+                                    <div class="steps__text">
+                                        Sed dolor ligula, consectetur at quam ultricies, imperdiet facilisis ipsum.
+                                        Suspendisse in varius leo. Suspendisse ut elementum justo.
+                                    </div>
+                                    <div class="steps__button btn">Taste me!</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+        <section id="subscribe">
+            <div class="subscribe__outer">
+                <div class="container">
+                    <div class="subscribe__inner">
+                        <div class="subscribe__title title"> 🔥 Subscribe for Update</div>
+                        <div class="subscribe__form">
+                            <div class="subscribe__input">
+                                <input type="text" placeholder="Your email">
+                                <button class="subscribe__button btn btn_dark">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="subscribe__desc">
+                            For more information check out our <span>privacy policy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="place">
+            <div class="place__outer">
+                <div class="container">
+                    <div class="place__inner">
+                        <div class="place__title title">
+                            <span>#</span> Check our places
+                        </div>
+                        <div class="place__desc">
+                            Vestibulum vel diam hendrerit, aliquam massa non, tempor magna. Aliquam erat volutpat.
+                            Mauris luctus ante diam, sit amet condimentum odio lacinia vel.
+                            Sed sit amet nulla dolor. Nam porta sed mi in auctor. Nunc et lacus ex. In hac habitasse platea dictumst.
+                        </div>
+                        <div class="place__list">
+                            <div class="place__item">
+                                <div class="place__image"></div>
+                                <div class="place__inner">
+                                    <div class="place__button btn btn_dark">Taste me!</div>
+                                    <div class="place__meta">
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 20th Feb, 2023
+                                        </div>
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 1004
+                                        </div>
+                                    </div>
+                                    <div class="place__item-title">
+                                        Place <span>#1 </span>
+                                    </div>
+                                    <div class="place__text">
+                                        Nunc eu sapien ut lorem dignissim pharetra in eu velit. Nulla facilisi.
+                                        Donec lobortis molestie nibh, rhoncus venenatis risus hendrerit at. Duis eget facilisis erat.
+                                        Nullam rhoncus odio eget consectetur sagittis. Integer ut tincidunt odio.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="place__item">
+                                <div class="place__image"></div>
+                                <div class="place__inner">
+                                    <div class="place__button btn btn_dark">Taste me!</div>
+                                    <div class="place__meta">
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 12th Mar, 2023
+                                        </div>
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 567
+                                        </div>
+                                    </div>
+                                    <div class="place__item-title">
+                                        Place <span>#2 </span>
+                                    </div>
+                                    <div class="place__text">
+                                        Nunc eu sapien ut lorem dignissim pharetra in eu velit. Nulla facilisi.
+                                        Donec lobortis molestie nibh, rhoncus venenatis risus hendrerit at. Duis eget facilisis erat.
+                                        Nullam rhoncus odio eget consectetur sagittis. Integer ut tincidunt odio.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="place__item">
+                                <div class="place__image"></div>
+                                <div class="place__inner">
+                                    <div class="place__button btn btn_dark">Taste me!</div>
+                                    <div class="place__meta">
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 20th Feb, 2023
+                                        </div>
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 1004
+                                        </div>
+                                    </div>
+                                    <div class="place__item-title">
+                                        Place <span>#3 </span>
+                                    </div>
+                                    <div class="place__text">
+                                        Nunc eu sapien ut lorem dignissim pharetra in eu velit. Nulla facilisi.
+                                        Donec lobortis molestie nibh, rhoncus venenatis risus hendrerit at. Duis eget facilisis erat.
+                                        Nullam rhoncus odio eget consectetur sagittis. Integer ut tincidunt odio.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="place__item">
+                                <div class="place__image"></div>
+                                <div class="place__inner">
+                                    <div class="place__button btn btn_dark">Taste me!</div>
+                                    <div class="place__meta">
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 06th Feb, 2023
+                                        </div>
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 3305
+                                        </div>
+                                    </div>
+                                    <div class="place__item-title">
+                                        Place <span>#4 </span>
+                                    </div>
+                                    <div class="place__text">
+                                        Nunc eu sapien ut lorem dignissim pharetra in eu velit. Nulla facilisi.
+                                        Donec lobortis molestie nibh, rhoncus venenatis risus hendrerit at. Duis eget facilisis erat.
+                                        Nullam rhoncus odio eget consectetur sagittis. Integer ut tincidunt odio.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="place__item">
+                                <div class="place__image"></div>
+                                <div class="place__inner">
+                                    <div class="place__button btn btn_dark">Taste me!</div>
+                                    <div class="place__meta">
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 21th Oct, 2022
+                                        </div>
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 1004
+                                        </div>
+                                    </div>
+                                    <div class="place__item-title">
+                                        Place <span>#5 </span>
+                                    </div>
+                                    <div class="place__text">
+                                        Nunc eu sapien ut lorem dignissim pharetra in eu velit. Nulla facilisi.
+                                        Donec lobortis molestie nibh, rhoncus venenatis risus hendrerit at. Duis eget facilisis erat.
+                                        Nullam rhoncus odio eget consectetur sagittis. Integer ut tincidunt odio.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="place__item">
+                                <div class="place__image"></div>
+                                <div class="place__inner">
+                                    <div class="place__button btn btn_dark">Taste me!</div>
+                                    <div class="place__meta">
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 02th Oct, 2022
+                                        </div>
+                                        <div class="place__meta-item">
+                                            <i class="fa fa-apple" aria-hidden="true"></i> 2234
+                                        </div>
+                                    </div>
+                                    <div class="place__item-title">
+                                        Place <span>#6 </span>
+                                    </div>
+                                    <div class="place__text">
+                                        Nunc eu sapien ut lorem dignissim pharetra in eu velit. Nulla facilisi.
+                                        Donec lobortis molestie nibh, rhoncus venenatis risus hendrerit at. Duis eget facilisis erat.
+                                        Nullam rhoncus odio eget consectetur sagittis. Integer ut tincidunt odio.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <?php include 'assets/includes/footer.php' ?>
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
