@@ -883,6 +883,7 @@ input {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-right: 4px;
 }
 
 .place__item-title {
@@ -901,4 +902,136 @@ input {
 .place__text {
     opacity: 0.6;
     font-size: 18px;
+}
+
+.faq__outer {
+    padding-bottom: 100px;
+}
+
+.faq__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.faq__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 60px;
+    position: relative;
+}
+
+.faq__list:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(269.18deg, #4924C2 -9.55%, #EB1A82 118.48%);
+    top: 0;
+    left: 10px;
+}
+
+.faq__item {
+    padding: 30px 24px 20px;
+    border-radius: 8px;
+    background-color: #131923;
+    position: relative;
+}
+
+.faq__item:before {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 100%;
+    background: linear-gradient(269.18deg, #4924C2 -9.55%, #EB1A82 118.48%);
+    top: 30px;
+    left: -70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq__item:nth-child(1)::before {
+    content: '01';
+}
+
+.faq__item:nth-child(2)::before {
+    content: '02';
+}
+
+.faq__item:nth-child(3)::before {
+    content: '03';
+}
+
+.faq__item:nth-child(4)::before {
+    content: '04';
+}
+
+.faq__a {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.faq__q {
+    font-size: 19px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.faq__image {
+    filter: drop-shadow(2px -5px 5px white);
+}
+
+.faq__image img {
+    filter: drop-shadow(2px -0px 6px white);
+}
+
+.info__text {
+    margin-bottom: 40px;
+}
+
+.info__list {
+    margin-bottom: 40px;
+}
+
+.info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info__item {
+    font-size: 18px;
+    opacity: 0.6;
+    padding-left: 30px;
+}
+
+.info__item i {
+    background: linear-gradient(269.18deg, #4924C2 -9.55%, #EB1A82 118.48%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 4px;
+}
+
+.gallery__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery__item img {
+    width: 100%;
+}
+
+.point__outer {
+    padding: 100px 0;
+}
+
+.point__text {
+    margin-bottom: 30px;
 }

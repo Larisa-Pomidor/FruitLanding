@@ -11,18 +11,18 @@
                     <div class="footer__contacts">
                         <div class="footer__contact-item">
                             <div class="footer__contact-icon">
-                                <i class="fa fa-share" aria-hidden="true"></i>
+                                <i class="fa fa-mail-forward" aria-hidden="true"></i>
                             </div>
                             <div class="footer__contact-text">
-
+                                fruitBox@box.com
                             </div>
                         </div>
                         <div class="footer__contact-item">
                             <div class="footer__contact-icon">
-                                <i class="fa fa-share" aria-hidden="true"></i>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
                             </div>
                             <div class="footer__contact-text">
-
+                                +123456789
                             </div>
                         </div>
                     </div>
@@ -56,10 +56,10 @@
                             <div class="footer__post-image"></div>
                             <div class="footer__post-info">
                                 <div class="footer__post-date">
-
+                                    18 Mar 2023
                                 </div>
                                 <div class="footer__post-title">
-
+                                    Fruit News #1
                                 </div>
                             </div>
                         </div>
@@ -67,10 +67,10 @@
                             <div class="footer__post-image"></div>
                             <div class="footer__post-info">
                                 <div class="footer__post-date">
-
+                                    03 Mar 2023
                                 </div>
                                 <div class="footer__post-title">
-
+                                    Fruit News #3
                                 </div>
                             </div>
                         </div>
@@ -78,10 +78,10 @@
                             <div class="footer__post-image"></div>
                             <div class="footer__post-info">
                                 <div class="footer__post-date">
-
+                                    20 Feb 2023
                                 </div>
                                 <div class="footer__post-title">
-
+                                    Fruit News #3
                                 </div>
                             </div>
                         </div>
@@ -101,16 +101,16 @@
                 </div>
                 <div class="copy__socials">
                     <a href="#" class="copy__socials-item">
-                        <i class="fa fa-share" aria-hidden="true"></i>
+                        <i class="fa fa-facebook-f" aria-hidden="true"></i>
                     </a>
                     <a href="#" class="copy__socials-item">
-                        <i class="fa fa-share" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
                     </a>
                     <a href="#" class="copy__socials-item">
-                        <i class="fa fa-share" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                     <a href="#" class="copy__socials-item">
-                        <i class="fa fa-share" aria-hidden="true"></i>
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>

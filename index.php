@@ -380,10 +380,10 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 20th Feb, 2023
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 20th Feb, 2023
                                         </div>
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 1004
+                                            <i class="fa fa-eye" aria-hidden="true"></i> 1004
                                         </div>
                                     </div>
                                     <div class="place__item-title">
@@ -402,10 +402,10 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 12th Mar, 2023
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 12th Mar, 2023
                                         </div>
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 567
+                                            <i class="fa fa-eye" aria-hidden="true"></i> 567
                                         </div>
                                     </div>
                                     <div class="place__item-title">
@@ -424,10 +424,10 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 20th Feb, 2023
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 20th Feb, 2023
                                         </div>
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 1004
+                                            <i class="fa fa-eye" aria-hidden="true"></i> 1004
                                         </div>
                                     </div>
                                     <div class="place__item-title">
@@ -446,10 +446,10 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 06th Feb, 2023
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 06th Feb, 2023
                                         </div>
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 3305
+                                            <i class="fa fa-eye" aria-hidden="true"></i> 3305
                                         </div>
                                     </div>
                                     <div class="place__item-title">
@@ -468,10 +468,10 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 21th Oct, 2022
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 21th Oct, 2022
                                         </div>
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 1004
+                                            <i class="fa fa-eye" aria-hidden="true"></i> 1004
                                         </div>
                                     </div>
                                     <div class="place__item-title">
@@ -490,10 +490,10 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 02th Oct, 2022
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 02th Oct, 2022
                                         </div>
                                         <div class="place__meta-item">
-                                            <i class="fa fa-apple" aria-hidden="true"></i> 2234
+                                            <i class="fa fa-eye" aria-hidden="true"></i> 2234
                                         </div>
                                     </div>
                                     <div class="place__item-title">
@@ -506,6 +506,150 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faq">
+            <div class="faq__outer">
+                <div class="container">
+                    <div class="faq__inner">
+                        <div class="faq__content">
+                            <div class="faq__title title">
+                                <span>#</span> FAQ
+                            </div>
+                            <div class="faq__list">
+                                <div class="faq__item">
+                                    <div class="faq__q">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</div>
+                                    <div class="faq__a">
+                                        Aliquam nulla sem, lacinia at tortor porta, sollicitudin mollis eros.
+                                        Sed congue dui lectus, at venenatis urna ultricies quis.
+                                        Suspendisse efficitur quam nec quam congue rutrum.
+                                    </div>
+                                </div>
+                                <div class="faq__item">
+                                    <div class="faq__q">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</div>
+                                    <div class="faq__a">
+                                        Sed congue dui lectus, at venenatis urna ultricies quis.
+                                        Suspendisse efficitur quam nec quam congue rutrum. Ut nisi leo, facilisis vel ultrices in, vulputate vel ante.
+                                    </div>
+                                </div>
+                                <div class="faq__item">
+                                    <div class="faq__q">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</div>
+                                    <div class="faq__a">
+                                        Aliquam nulla sem, lacinia at tortor porta, sollicitudin mollis eros.
+                                        Sed congue dui lectus, at venenatis urna ultricies quis.
+                                        Suspendisse efficitur quam nec quam congue rutrum. Ut nisi leo, facilisis vel ultrices in, vulputate vel ante.
+                                    </div>
+                                </div>
+                                <div class="faq__item">
+                                    <div class="faq__q">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</div>
+                                    <div class="faq__a">
+                                        Aliquam nulla sem, lacinia at tortor porta, sollicitudin mollis eros.
+                                        Suspendisse efficitur quam nec quam congue rutrum. Ut nisi leo, facilisis vel ultrices in, vulputate vel ante.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq__image">
+                            <img src="assets/img/faq.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="info">
+            <div class="info__outer">
+                <div class="container">
+                    <div class="info__inner">
+                        <div class="info__title title">
+                            <span>#</span> Nullam rhoncus odio eget
+                        </div>
+                        <div class="info__text">
+                            Mauris ut tristique nunc. Aenean eu leo velit. Nullam efficitur quam in felis vehicula auctor.
+                            Fusce tellus tellus, efficitur vel nunc a, ornare posuere mauris.
+                            Vestibulum vel diam hendrerit, aliquam massa non, tempor magna. Aliquam erat volutpat.
+                            Mauris luctus ante diam, sit amet condimentum odio lacinia vel.
+                            Sed sit amet nulla dolor. Nam porta sed mi in auctor. Nunc et lacus ex. In hac habitasse platea dictumst.
+                        </div>
+                        <div class="info__list">
+                            <div class="info__item">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Nam porta sed mi in auctor.
+                            </div>
+                            <div class="info__item">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Nam porta sed mi in auctor.
+                            </div>
+                            <div class="info__item">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Nam porta sed mi in auctor.
+                            </div>
+                            <div class="info__item">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Nam porta sed mi in auctor.
+                            </div>
+                        </div>
+                        <div class="info__text">
+                            Mauris ut tristique nunc. Aenean eu leo velit. Nullam efficitur quam in felis vehicula auctor.
+                            Fusce tellus tellus, efficitur vel nunc a, ornare posuere mauris.
+                            Vestibulum vel diam hendrerit, aliquam massa non, tempor magna. Aliquam erat volutpat.
+                            Mauris luctus ante diam, sit amet condimentum odio lacinia vel.
+                            Sed sit amet nulla dolor. Nam porta sed mi in auctor. Nunc et lacus ex. In hac habitasse platea dictumst.
+                        </div>
+                        <div class="info__title title">
+                            <span>#</span> Duis eget facilisis erat
+                        </div>
+                        <div class="info__text">
+                            Mauris ut tristique nunc. Aenean eu leo velit. Nullam efficitur quam in felis vehicula auctor.
+                            Fusce tellus tellus, efficitur vel nunc a, ornare posuere mauris.
+                            Vestibulum vel diam hendrerit, aliquam massa non, tempor magna. Aliquam erat volutpat.
+                            Mauris luctus ante diam, sit amet condimentum odio lacinia vel.
+                            Sed sit amet nulla dolor. Nam porta sed mi in auctor. Nunc et lacus ex. In hac habitasse platea dictumst.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="gallery__outer">
+                <div class="container">
+                    <div class="gallery__inner">
+                        <div class="gallery__list">
+                            <div class="gallery__item"><img src="assets/img/gallery-1.jpg" alt=""></div>
+                            <div class="gallery__item"><img src="assets/img/gallery-2.jpg" alt=""></div>
+                            <div class="gallery__item"><img src="assets/img/gallery-3.jpg" alt=""></div>
+                            <div class="gallery__item"><img src="assets/img/gallery-4.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="point">
+            <div class="point__outer">
+                <div class="container">
+                    <div class="point__inner">
+                        <div class="point__title title">
+                            <span>#</span> What is the Point?
+                        </div>
+                        <div class="point__text">
+                            Nullam blandit urna lacus, malesuada interdum lacus scelerisque a.
+                            Vivamus a est non arcu iaculis varius a nec tortor. Cras ut dolor sollicitudin, consectetur felis a, molestie purus.
+                            Donec porta, leo ornare sagittis posuere, elit sem mollis magna, ac tempor urna est eget erat. Cras sed consectetur dui.
+                            Cras pretium sapien nisl, at egestas ipsum rutrum sed. Phasellus cursus sem in enim mollis, a facilisis ex iaculis.
+                            Nunc eu sapien ut lorem dignissim pharetra in eu velit. Nulla facilisi.
+                            Donec lobortis molestie nibh, rhoncus venenatis risus hendrerit at.
+                            Duis eget facilisis erat. Nullam rhoncus odio eget consectetur sagittis. Integer ut tincidunt odio.
+                        </div>
+                        <div class="point__text">
+                            Nullam blandit urna lacus, malesuada interdum lacus scelerisque a.
+                            Vivamus a est non arcu iaculis varius a nec tortor. Cras ut dolor sollicitudin, consectetur felis a, molestie purus.
+                            Donec porta, leo ornare sagittis posuere, elit sem mollis magna, ac tempor urna est eget erat. Cras sed consectetur dui.
+                            Cras pretium sapien nisl, at egestas ipsum rutrum sed. Phasellus cursus sem in enim mollis, a facilisis ex iaculis.
+                            Nunc eu sapien ut lorem dignissim pharetra in eu velit. Nulla facilisi.
+                            Donec lobortis molestie nibh, rhoncus venenatis risus hendrerit at.
+                            Duis eget facilisis erat. Nullam rhoncus odio eget consectetur sagittis. Integer ut tincidunt odio.
                         </div>
                     </div>
                 </div>

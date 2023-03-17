@@ -1,0 +1,148 @@
+.footer__outer {
+    background-image: url(../img/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+    filter: drop-shadow(2px 4px 76px rgba(255, 255, 255, 0.09));
+}
+
+.footer__inner {
+    display: grid;
+    grid-template-columns: 1.4fr 0.8fr 0.8fr 1fr;
+    gap: 60px;
+}
+
+.footer__title {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.footer__text {
+    margin-bottom: 30px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__menu-item {
+    opacity: 0.8;
+}
+
+.footer__contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer__contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+    font-size: 16px;
+    border-radius: 100%;
+    background: linear-gradient(269.18deg, #4924C2 -9.55%, #EB1A82 118.48%);
+}
+
+.footer__posts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__post-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__post-image {
+    min-width: 53px;
+    height: 53px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.footer__post-item:nth-child(1) .footer__post-image {
+    background-image: url(../img/post-1.png);
+}
+
+.footer__post-item:nth-child(2) .footer__post-image {
+    background-image: url(../img/post-2.png);
+}
+
+.footer__post-item:nth-child(3) .footer__post-image {
+    background-image: url(../img/post-3.png);
+}
+
+.footer__post-date {
+    font-size: 16px;
+    opacity: 0.5;
+    margin-bottom: 6px;
+}
+
+.footer__post-title {
+    font-size: 18px;
+}
+
+.copy__outer {
+    padding: 20px 0;
+    background-color: #e693ff;
+}
+
+.copy__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.copy__logo {
+    background: linear-gradient(269.18deg, #4924C2 -9.55%, #EB1A82 118.48%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;
+}
+
+.copy__text {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.copy__text span {
+    text-align: center;
+    background: linear-gradient(269.18deg, #4924C2 -9.55%, #EB1A82 118.48%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.copy__socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.copy__socials-item {
+    background-color: rgba(117, 0, 184, 0.25);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
