@@ -382,7 +382,7 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-calendar" aria-hidden="true"></i> 20th Feb, 2023
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 20 Feb, 2023
                                         </div>
                                         <div class="place__meta-item">
                                             <i class="fa fa-eye" aria-hidden="true"></i> 1004
@@ -404,7 +404,7 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-calendar" aria-hidden="true"></i> 12th Mar, 2023
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 12 Mar, 2023
                                         </div>
                                         <div class="place__meta-item">
                                             <i class="fa fa-eye" aria-hidden="true"></i> 567
@@ -426,7 +426,7 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-calendar" aria-hidden="true"></i> 20th Feb, 2023
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 20 Feb, 2023
                                         </div>
                                         <div class="place__meta-item">
                                             <i class="fa fa-eye" aria-hidden="true"></i> 1004
@@ -448,7 +448,7 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-calendar" aria-hidden="true"></i> 06th Feb, 2023
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 06 Feb, 2023
                                         </div>
                                         <div class="place__meta-item">
                                             <i class="fa fa-eye" aria-hidden="true"></i> 3305
@@ -470,7 +470,7 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-calendar" aria-hidden="true"></i> 21th Oct, 2022
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 21 Oct, 2022
                                         </div>
                                         <div class="place__meta-item">
                                             <i class="fa fa-eye" aria-hidden="true"></i> 1004
@@ -492,7 +492,7 @@
                                     <div class="place__button btn btn_dark">Taste me!</div>
                                     <div class="place__meta">
                                         <div class="place__meta-item">
-                                            <i class="fa fa-calendar" aria-hidden="true"></i> 02th Oct, 2022
+                                            <i class="fa fa-calendar" aria-hidden="true"></i> 02 Oct, 2022
                                         </div>
                                         <div class="place__meta-item">
                                             <i class="fa fa-eye" aria-hidden="true"></i> 2234
